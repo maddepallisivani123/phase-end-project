@@ -10,7 +10,7 @@ namespace phase_end_project
         static void Main(string[] args)
         {
                 string dir = Directory.GetCurrentDirectory();
-            string filename = dir + "\\project.txt";
+                string filename = dir + "\\project.txt";
              
                 static void update(string filename)
                 {
@@ -55,11 +55,6 @@ namespace phase_end_project
 
                             break;
 
-                        }
-                        else
-                        {
-                            Console.WriteLine("sorry this Id doesnot exists");
-                            break;
                         }
                     }
                     int count = 0;
@@ -138,11 +133,7 @@ namespace phase_end_project
                             break;
 
                         }
-                        else
-                        {
-                            Console.WriteLine("sorry this Id doesnot exists");
-                            break;
-                        }
+                        
                     }
 
                     int count = 0;
@@ -187,11 +178,6 @@ namespace phase_end_project
                             break;
 
                         }
-                    else
-                    {
-                        Console.WriteLine("sorry this Id doesnot exists");
-                        break;
-                    }
                 }
 
                 }
